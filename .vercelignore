@@ -1,0 +1,32 @@
+# Development files
+node_modules
+.next
+.vercel
+
+# Documentation
+*.md
+!README.md
+
+# Database files
+*.sql
+database*.md
+
+# Migration files
+migration_*.sql
+MIGRATION_*.md
+
+# Supabase local files
+supabase/.temp
+supabase/.branches
+
+# Environment files
+.env.local
+.env.*.local
+
+# Test files
+src/app/test
+
+# Git
+.git
+.gitignore
+
